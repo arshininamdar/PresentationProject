@@ -297,6 +297,7 @@ p {
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
+	min-width: 300px;
 }
 #services .service-item::after {
 	content: '';
@@ -323,6 +324,12 @@ p {
 #services .service-item p {
 	color: white;
 	text-align: left;
+}
+#services .service-item a {
+    font-size: 1.5rem;
+	font-weight: 500;
+	color: hotpink;
+	text-decoration: underline;
 }
 /* End Services Section */
 
