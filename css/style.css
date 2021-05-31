@@ -714,3 +714,68 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
+
+/* report Section */
+#report .report {
+	flex-direction: column-reverse;
+	text-align: left;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 20px;
+}
+#report .report-info {
+	padding: 30px;
+	flex-basis: 50%;
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: left;
+	flex-direction: column;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	color: white;
+}
+#report .report-info h1 {
+	font-size: 8rem;
+	font-weight: 500;
+}
+#report .report-info h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin-top: 10px;
+}
+#report .report-info p {
+	color: white;
+}
+#report .report-info a {
+    font-size: 1.5rem;
+	font-weight: 500;
+	color: hotpink;
+	text-decoration: underline;
+}
+
+#report .report-img {
+	flex-basis: 50%;
+	height: 20%;
+	width: 20%;
+	overflow: hidden;
+	position: relative;
+}
+#report .report-img:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: 0.2;
+}
+#report .report-img img {
+	transition: 0.3s ease transform;
+}
+#report .report-item:hover .report-img img {
+	transform: scale(1.1);
+}
+
+/* End report Section */

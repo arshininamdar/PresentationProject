@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link rel="stylesheet" href="css/style.css">
+	  <title>My Report</title>
+	</head>
+
+	<body>
+		<!-- Header -->
+		<section id="header">
+			<div class="header container">
+				<div class="nav-bar">
+					<div class="brand">
+						<a href="#hero">
+							<h1><span>Project Report</span></h1>
+						</a>
+					</div>
+					<div class="nav-list">
+						<div class="hamburger">
+							<div class="bar"></div>
+						</div>
+						<ul>
+							<li><a href="index.html" data-after="Home">Home</a></li>
+							<li><a href="index.html#services" data-after="Service">Assignments</a></li>
+							<li><a href="index.html#projects" data-after="Projects">Projects</a></li>
+							<li><a href="index.html#about" data-after="About">About</a></li>
+							<li><a href="index.html#contact" data-after="Contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Header -->
+		<section id="report">
+			<div class="report container">
+				<div class="report info">
+					<h1>REPORT ON SHOPPING LIST USING ANGULARJS</h1>
+
+					<h2>ABSTRACT:- </h2>
+					<p>
+					I’ve been getting a lot, and I mean a huge amount, of requests for a tutorial on some form of JavaScript framework. I tried Backbone, but honesty? I just couldn’t get to like it. It is brilliant, but not for me. So someone suggested AngularJS instead & it was love at first sight. Super simple and it even feels like an extension of HTML. Anyway, let’s get to learning.
+					ANGULARJS: WHAT IS IT?
+					AngularJS is a ‘super-heroic’ (their words not mine) JavaScript MVW (Model, view, whatever!) framework. It allows you to rapidly develop JavaScript applications without the hassle.
+
+					IS IT FOR ME?
+					I honestly can’t tell you that. Have a look at the demo (coming up), a quick scan of the tutorial & if like what you see why not follow along?
+
+					</p>
+
+
+					<h2>ANGULARJS: WORKING DEMO </h2>
+
+					<p>
+					I know you are probably itching to get hands on with Angular so why not have a play around with the demo below.
+
+					Now this is a pretty looking, but pretty pointless app. I figured it made a nice change to the traditional To-do application examples that litter the web though. Also note that changes do not save. This is because the data is static. This saves my server the huge amount of stress that would be involved from having lots of people hitting it. Also note that I won’t be showing you how to connect to & serve data from a REST service, this would make the tutorial too long. I will however be showing you how to do this in part two of this tutorial which is coming very soon.
+					</p>
+
+					<div class="report-img">
+						<img src="./img/ShoppingCart.png" alt="img">
+					</div>
+
+					<h2>MOTIVATION:-</h2>
+
+					<p>
+					The inspiration or motivation is simple during shopping people are unable to purchase everything they were looking for either because of they are overwhelmed by the sheer volume of products or the number of brands of a certain products hence to minimize the strain of memorizing every single product a list is required, also a list helps to stay organised and productive.
+					</p>
+
+					<h2>PURPOSE OF THE PROJECT:-</h2>
+
+					<p>
+					The purpose of the project is to minimize the hassle of keeping the track of all the
+					Items /products purchased and the products that haven’t been purchased, a list also helps Making a shopping list can give you a sense of accomplishment from being able to control your urges of buying items you don't need and being able to stick to your plan. This triggers the release of dopamine, which makes you feel good. It also motivates you to complete your shopping task with gusto
+					To keep track of the activities of the day as a to-do list
+					</p>
+
+					<h2>PROBLEM AIM AND SCOPE</h2>
+
+					<p>
+					•	The IDE java is a java Integrated Development Environment and is aimed at an intuitive interface to use and has a swing look.
+					•	The software is a simple java development environment to be implemented in java.
+					•	This project automatically generates Java source codes for the design designed by the user.
+					•	On behalf of writing source codes for design, here uses design-oriented approach to develop applications easily.
+					•	The design will produce Java source code as an output.
+					•	This software also supports compilation, execution and debugging of the Java programs.
+					</p>
+
+					<h2>OBJECTIVES OF THE SYSTEM</h2>
+
+					<p>
+						Design a GUI Interface
+						Generate Code on designing
+						Compile and execute
+						Option of viewing code in an outline format, with each open and close brace.
+						Drag and Drop components from Toolbox
+						 Customizable and extensible click to add mechanism
+					</p>
+
+					<h2>FEATURES OF IDE Java</h2>
+
+					<p>
+					•	User Friendly
+					•	Intuitive for new users
+					•	Toolbox with components for designing
+					•	Properties window to set and get properties
+					•	Code window to view the code generated for the GUI designed
+					•	Design view
+					•	Menu-bar for grouping set of actions .
+					</p>
+
+					<h2>Use of IDE</h2>
+
+					<p>
+					•	Java IDE is an interesting and the most important of which is integration with every one’s favorite tools for designing, coding.
+					•	Compiling background syntax checking
+					<h2>ANGULARJS: LET’S GET STARTED
+					First up is getting everything up. To build this app you are going to need to create a suitable directory structure & a few files. Here is what you should have
+
+					<h2>Project Folder</h2>
+
+					<p>
+					o	css
+						bootstrap.min.css (download from Twitter Bootstrap)
+						main.css
+					o	img
+						check.png (download)
+					o	js
+						app.js
+					o	index.html
+					This is the directory structure I have used for the demo. Feel free to follow it as I will probably be referencing this structure from this point on.
+					</p>
+
+					<h2>ANGULARJS: HTML</h2>
+
+					<p>
+
+					CONCEPTS
+					Before we move on to the HTML I need to explain a few concepts that Angular users, this will help you to understand the code I’m about to show you.
+					First Angular uses special attributes insides HTML tags to tell Angular what to do. For example <input type=”switch”> will define a model on a checkbox. The variable set inside the model will update with the value of the checkbox is clicked. The value of the checkbox will also updated. I will explain others throughout the code.
+					Secondly Angular uses Mustache syntax for parsing variables in HTML. Mustache syntax is just {{  }} two sets of curly braces. These instruct Angular to output the value of the variable, just like echo would for PHP.The only difference is that it can also output the return value of a function.
+					Now you have the correct directory structure, the files needed created, and a little understanding of some of Angular’s HTML concepts let’s get on with the HTML.
+					</p>
+				</div>
+			</div>
+		</section>
+
+	<!-- End Footer -->
+	<script src="./js/app.js"></script>
+	</body>
+</html>
+
